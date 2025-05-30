@@ -31,12 +31,12 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .new {
     flex-direction: column;
+    gap: 0px;
     &-column {
       width: 100%;
-      min-height: 375px;
       &-text {
         padding: 48px 12px;
       }
@@ -139,7 +139,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .content {
     padding: 64px 12px;
   }
@@ -208,6 +208,12 @@
   }
   .email-link {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactUs {
+    display: none;
   }
 }
 

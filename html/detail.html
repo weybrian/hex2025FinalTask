@@ -15,10 +15,27 @@
     </nav>
     <div class="new">
       <div class="new-column">
-        <img
-          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/About%20Section.png?raw=true"
-          alt="最新文章圖片"
-        />
+        <picture>
+          <!-- 螞蟻圖手機版 -->
+          <source
+            media="(max-width: 768px)"
+            srcset="
+              https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/blog-content/About%20Section.png?raw=true
+            "
+          />
+          <!-- 電腦版 -->
+          <source
+            media="(min-width: 769px)"
+            srcset="
+              https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/About%20Section.png?raw=true
+            "
+          />
+          <!-- 備援圖片（不支援 <picture> 的瀏覽器） -->
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/About%20Section.png?raw=true"
+            alt="最新文章圖片"
+          />
+        </picture>
       </div>
       <div class="new-column new-column-text">
         <time datetime="" class="date">2024/10/21</time>
@@ -40,11 +57,27 @@
       </div>
       <ul class="content-ul l-detail">
         <li class="content-li">
-          <img
-            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content1.png?raw=true"
-            alt="電腦顯示程式碼的圖片"
-            class="content-li-img"
-          />
+          <picture>
+            <!-- 螞蟻圖手機版 -->
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/blog-content/content1.png?raw=true
+              "
+            />
+            <!-- 電腦版 -->
+            <source
+              media="(min-width: 769px)"
+              srcset="
+                https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content1.png?raw=true
+              "
+            />
+            <!-- 備援圖片（不支援 <picture> 的瀏覽器） -->
+            <img
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content1.png?raw=true"
+              alt="電腦顯示程式碼的圖片"
+            />
+          </picture>
           <h2 class="content-h2 title">打好基礎：HTML、CSS、JavaScript</h2>
           <div class="content-li-section">
             <h3 class="content-h3">HTML 與語意化</h3>
@@ -106,11 +139,27 @@
           </p>
         </li>
         <li class="content-li">
-          <img
-            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content2.png?raw=true"
-            alt="電腦顯示程式碼的圖片"
-            class="content-li-img"
-          />
+          <picture>
+            <!-- 螞蟻圖手機版 -->
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/blog-content/content2.png?raw=true
+              "
+            />
+            <!-- 電腦版 -->
+            <source
+              media="(min-width: 769px)"
+              srcset="
+                https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content2.png?raw=true
+              "
+            />
+            <!-- 備援圖片（不支援 <picture> 的瀏覽器） -->
+            <img
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content2.png?raw=true"
+              alt="電腦顯示程式碼的圖片"
+            />
+          </picture>
           <h2 class="content-h2 title">擅用主流框架與工具</h2>
           <div class="content-li-section">
             <h3 class="content-h3">React、Vue 先挑一個</h3>
@@ -150,11 +199,27 @@
           </div>
         </li>
         <li class="content-li">
-          <img
-            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content3.png?raw=true"
-            alt="許多人一起看電腦的圖片"
-            class="content-li-img"
-          />
+          <picture>
+            <!-- 螞蟻圖手機版 -->
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/blog-content/content3.png?raw=true
+              "
+            />
+            <!-- 電腦版 -->
+            <source
+              media="(min-width: 769px)"
+              srcset="
+                https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content3.png?raw=true
+              "
+            />
+            <!-- 備援圖片（不支援 <picture> 的瀏覽器） -->
+            <img
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content3.png?raw=true"
+              alt="許多人一起看電腦的圖片"
+            />
+          </picture>
           <h2 class="content-h2 title">持續練習與參與社群</h2>
           <div class="content-li-section">
             <h3 class="content-h3">多參加前端挑戰 / Hackathon</h3>
@@ -188,11 +253,27 @@
         </li>
       </ul>
       <div class="concludsion l-detail">
-        <img
-          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content4.png?raw=true"
-          alt="許多人一起看電腦的圖片"
-          class="content-li-img"
-        />
+        <picture>
+          <!-- 螞蟻圖手機版 -->
+          <source
+            media="(max-width: 768px)"
+            srcset="
+              https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/blog-content/content4.png?raw=true
+            "
+          />
+          <!-- 電腦版 -->
+          <source
+            media="(min-width: 769px)"
+            srcset="
+              https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content4.png?raw=true
+            "
+          />
+          <!-- 備援圖片（不支援 <picture> 的瀏覽器） -->
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/content4.png?raw=true"
+            alt="小男孩舉白旗投降的圖片"
+          />
+        </picture>
         <h2 class="content-h2 title">結語</h2>
         <p class="opening-p">
           自學前端可能遇到卡關、挫折，但同時也具備很高的自主性。只要把
